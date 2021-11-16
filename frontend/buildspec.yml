@@ -1,0 +1,36 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 10
+    commands:
+      - npm install
+  pre_build:
+    commands:
+      - echo starting prebuild phase `date`
+  build:
+    commands:
+      - npm build
+      - npm test
+  post_build:
+    commands:
+      - echo starting post-build phase `date`
+      - >
+        docker run -e SONAR_TOKEN=SONAR_TOKEN
+        -v $(pwd):/usr/src
+        sonarsource/sonar-scanner-cli
+        sonar-scanner
+        -Dsonar.organization=image-resizer-app
+        -Dsonar.projectKey=image-resizer-app
+        -Dsonar.sources=./src
+        -Dsonar.typescript.lcov.reportPaths=./coverage/lcov.info
+        -Dsonar.host.url=https://sonarcloud.io
+
+artifacts:
+  files:
+    - public/*
+    - src/**/*
+    - node_modules/**/*
+    - package.json
+    - package-lock.json

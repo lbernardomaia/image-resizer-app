@@ -1,0 +1,11 @@
+{
+  "name": "image-resizer-function",
+  "version": "0.1.0",
+  "dependencies": {
+    "aws-sdk": "^2.861.0",
+    "axios": "^0.21.1",
+    "jimp": "^0.16.1",
+    "sharp": "^0.27.2",
+    "watermarkjs": "^2.1.1"
+  }
+}

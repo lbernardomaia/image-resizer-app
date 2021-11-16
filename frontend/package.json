@@ -1,0 +1,48 @@
+{
+  "name": "image-resizer-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.5.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3"
+  },
+  "scripts": {
+    "start": "node ./node_modules/react-scripts/bin/react-scripts.js start",
+    "build": "node ./node_modules/react-scripts/bin/react-scripts.js build",
+    "test": "node ./node_modules/react-scripts/bin/react-scripts.js test --watchAll=false --coverage",
+    "eject": "node ./node_modules/react-scripts/bin/react-scripts.js eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "engines": {
+    "node": "14.15.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "A simple [create-react-app](CRA-README.md) setup, showcasing how it works with React-Router-Bootstrap",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://git-codecommit.eu-west-1.amazonaws.com/v1/repos/image-resizer-frontend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
