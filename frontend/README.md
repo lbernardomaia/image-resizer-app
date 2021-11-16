@@ -1,30 +1,30 @@
 # Frontend
 
-##Setup
+## Setup
 
-The following variables must match with the API Gateway URL and X_API_KEY:
+The following variables must match with the AWS API Gateway URL and X_API_KEY:
  - IMAGE_RESIZER_URL;
  - IMAGE_RESIZER_X_API_KEY;
 
-The following variables must match with the Google API configuration (https://developers.google.com/custom-search/v1/using_rest):
+The following variables must match with the Google API configuration (https://developers.google.com/custom-search/v1/using_rest) to be able to search for images:
 - GOOGLE_API_URL
 - GOOGLE_KEY
 - CX_SEARCH_ENGINE_ID
 
-###To install the dependencies
+### To install the dependencies
 
 ```
 npm install
 ```
 
-###To start the project
+### To start the project
 
 ```
 npm start
 ```
 
 
-###To build the project
+### To build the project
 
 ```
 npm build
