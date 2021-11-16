@@ -5,7 +5,7 @@ interacts with a full decouple backend making use of AWS Services as demonstrate
 
 The diagram below demonstrates how the application runs on AWS.
 
-![Project Architecture](https://github.com/lbernardomaia/image-resizer-app/blob/main/project-architecture.png)
+![Project Architecture](https://github.com/lbernardomaia/image-resizer-app/blob/master/project-architecture.png)
 
 ## Getting Started
 
