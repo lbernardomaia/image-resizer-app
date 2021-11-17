@@ -25,4 +25,4 @@ The project is divided into two folders, the frontend, and the backend.
   SonarCloud code analysis for every build.
 - The frontend was deployed on AWS Elastic Beanstalk.
 
-![Project Pipeline](https://github.com/lbernardomaia/image-resizer-app/blob/main/project-pipeline.png)
+![Project Pipeline](https://github.com/lbernardomaia/image-resizer-app/blob/master/project-pipeline.png)
