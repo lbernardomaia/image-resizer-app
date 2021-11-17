@@ -21,7 +21,7 @@ The project is divided into two folders, the frontend, and the backend.
 
 ## Frontend DevOps Pipeline
 - This project had a DevOps Pipeline running on AWS CodePipeline as demonstrated on the image below.
-- The frontend contain the buildspec.yml file used by AWS CodeBuild, which builds, execute the tests and run
+- The frontend contains the buildspec.yml file used by AWS CodeBuild, which builds, execute the tests and run
   SonarCloud code analysis for every build.
 - The frontend was deployed on AWS Elastic Beanstalk.
 
